@@ -47,7 +47,7 @@ REPO_DIR = os.path.dirname(os.path.abspath(__file__))
 SCHEMA_VERSION = 1
 
 # VPN Gate 没有 HTTPS 接口，官方 API 只提供 HTTP。
-DEFAULT_VPNGATE_API = ""
+DEFAULT_VPNGATE_API = "https://cf.090227.xyz/ct?ips=6&port=443"
 DEFAULT_VPNGATE_MIRROR = (
     "https://raw.githubusercontent.com/fdciabdul/Vpngate-Scraper-API/main/json/data.json"
 )
